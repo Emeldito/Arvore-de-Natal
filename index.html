@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <!--- basic page needs    ================================================== -->
+    <meta charset="utf-8">
+    <title>Arvore de Natal</title>
+    <meta name="description" content="Arvore de Natal Tech4U">
+    <meta name="author" content="Emeldito Covane">
+
+    <!-- mobile specific metas   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS and Js    ================================================== -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <!-- script     ================================================== -->
+    <script src="js/jquery.fireworks.js"></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+<div class="demo">
+	<img src="img/logos/Tech 4U PNG.png" alt="logo">
+<!--h1>TECH 4U</h1-->
+</div>
+
+    <div class="estrela">*</div>
+    <div id="arvore"></div>
+    <h1>FELIZ NATAL! <br><c>PRÓSPERO ANO NOVO 2022</c></h1>
+    <p></p>
+    
+    <script>
+    	//Arvore de natal .js
+        var hojas = "";
+        [10,2].forEach(row => {
+            new Array(row).fill('').forEach((v,i) => {
+                hojas += ([
+                    ...Array(9-i).fill("<span> </span>"),
+                    ...Array(1+i*2).fill("<span class='rojo'>*</span>"),
+                    ...Array(9-i).fill("<span> </span>"),
+
+                ].join(''))
+                hojas += "<br>"
+            })
+        })
+        document.getElementById("arvore").innerHTML = hojas;
+
+        let animacion = document.querySelectorAll(".rojo");
+        animacion.innerHTML = hojas;
+        function animar(){
+            for( var i =0 ; i<animacion.length; i++){
+                let tiempo = i/20 +1
+                animacion[i].style.animation = "colores "+tiempo+"s infinite"
+            }
+        }
+        window.addEventListener('load',animar)
+        
+
+	//Fofo de artificio
+	$('.demo').fireworks({ sound: true, opacity: 0.3, width: '100%', height: '100%' });
+    </script>	
+</body>
+</html>

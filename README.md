@@ -3,7 +3,7 @@
 
  # jQuery-fireworks
 É um plugin jQuery simples e fácil de usar, totalmente configurável, usado para criar animações realistas de fogos de artifício com efeitos sonoros de explosão para celebrações. O Neste projecto, o plugin jQuery coloca fogos de artifício deslumbrantes em uma div.
-
+image.png
 # Usage
 $('#divElement').fireworks();
 

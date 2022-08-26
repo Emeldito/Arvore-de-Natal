@@ -20,4 +20,4 @@ $('#divElement').fireworks({
 Como aplicar efeitos de animação de fogos de artifício jQuery usando fireworks js?
 
 Passo 1
-Baixe o plugin jQuery no site: ![link](https://www.jqueryscript.net/animation/Realistic-Fireworks-Animations-Using-jQuery-And-Canvas-fireworks-js.html) e depois coloque o script jquery.fireworks.js depois da biblioteca jQuery. Abaixo, postei um link CDN para a biblioteca jquery mais recente na data de publicação.
+Baixe o plugin jQuery [aqui](https://www.jqueryscript.net/animation/Realistic-Fireworks-Animations-Using-jQuery-And-Canvas-fireworks-js.html) e depois coloque o script jquery.fireworks.js depois da biblioteca jQuery. Abaixo, postei um link CDN para a biblioteca jquery mais recente na data de publicação.

@@ -28,3 +28,5 @@ Baixe o plugin jQuery [aqui](https://www.jqueryscript.net/animation/Realistic-Fi
 # Passo 2
 Depois de vincular os arquivos necessários, crie um elemento onde você deseja que as animações de fogos de artifício sejam colocadas. Neste projecto eu usei uma div com a classe estrela.
 
+O img eu usei uma dica extra. Tornando-o opcional.
+

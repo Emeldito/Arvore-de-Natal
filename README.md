@@ -32,3 +32,11 @@ O h1 junto com img eu usei uma dica extra. Tornando-o opcional.
 
 ![image](https://user-images.githubusercontent.com/50636981/187048132-59936f94-84ac-41c3-9bb2-d56b17a03b98.png)
 
+
+
+# Passo 3
+Crie um Arry que vai retornar uma arvore conforme mostrado abaixo:
+![image](https://user-images.githubusercontent.com/50636981/187048440-cec6dded-647e-4021-a935-d339fb1a2a9c.png)
+
+# Passo 4
+Por fim, inicialize o plugin chamando a função fireworks conforme mostrado abaixo:

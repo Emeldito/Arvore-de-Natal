@@ -33,10 +33,18 @@ O h1 junto com img eu usei uma dica extra. Tornando-o opcional.
 ![image](https://user-images.githubusercontent.com/50636981/187048132-59936f94-84ac-41c3-9bb2-d56b17a03b98.png)
 
 
-
 # Passo 3
 Crie um Arry que vai retornar uma arvore conforme mostrado abaixo:
 ![image](https://user-images.githubusercontent.com/50636981/187048440-cec6dded-647e-4021-a935-d339fb1a2a9c.png)
 
+
 # Passo 4
-Por fim, inicialize o plugin chamando a função fireworks conforme mostrado abaixo:
+Crie animacoes na arvore de natal com sript conforme mostrado:
+![image](https://user-images.githubusercontent.com/50636981/187048607-16235242-e38e-4f72-b1a4-18dfbc9dc33e.png)
+
+
+# Passo 4
+Por fim, inicialize o plugin chamando a função fireworks, para animar com fogos de artifício conforme mostrado abaixo:
+![image](https://user-images.githubusercontent.com/50636981/187048735-c4fcad48-2707-49f6-ac7b-36e52e8150a2.png)
+
+Sempre colocarei conteúdo gratuito no meu canal do YouTube, mas mostrar seu apoio, se inscrever nele, me incentiva e me motiva, não por causa do dinheiro, mas porque realmente apreciam o que faço.
